@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family:"SFMono-Regular"
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	color: #fff;
+	background-color: #000;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right ul {
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.top-wrapper {
+	color: #fff;
+	background-color: #000;
+	border-top: 0;
+	padding: 5em 0;
+	text-align: center;
+}
+
+.top-wrapper h1 {
+	font-size: 4em;
+}
+
+.btn {
+	display: inline-block;
+	padding: 0.75em 1.25em;
+	text-decoration: none;
+}
+
+.register {
+	color: white;
+	background-color: #28a745;
+
+}
