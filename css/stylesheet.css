@@ -38,17 +38,6 @@ li {
 	color: #878787;
 }
 
-.header-right li {
-	float: left;
-	margin-left: 2em;
-	margin-right: 0em;
-	padding-top: 2em;
-}
-
-.header-right a:hover {
-	color: #878787;
-}
-
 .top-wrapper {
 	color: #fff;
 	background-color: #000;
