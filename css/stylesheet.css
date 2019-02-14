@@ -6,17 +6,20 @@
 }
 
 header {
-	color: #fff;
 	background-color: #000;
+	color: #fff;
+
 }
 
 a {
-	text-decoration: none;	
 	color: #fff;
+	text-decoration: none;	
+
 }
 
 ul {
 	padding-left: 0;
+	padding-bottom: 1em;
 }
 
 li {
@@ -34,14 +37,26 @@ li {
 	padding-top: 1em;
 }
 
+.header-right {
+	text-align: right;
+}
+
 .header-left a:hover {
 	color: #878787;
 }
 
+.menu-bar:hover {
+	cursor: pointer;
+}
+
+.header-right a:hover {
+	color: #878787;
+}
+
 .top-wrapper {
-	color: #fff;
 	background-color: #000;
 	border-top: 0;
+	color: #fff;
 	padding: 5em 2em;
 }
 
@@ -64,32 +79,63 @@ li {
 }
 
 .btn {
-	display: inline-block;
-	padding: 0.5em 0.5em;
-	text-decoration: none;
+	border: 1px solid gray;
 	border-radius: 5px;
 	color: blue;
+	display: inline-block;
 	font-weight: bold;
-	border: 1px solid gray;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .btn:hover {
-	color: white;
 	background-color: blue;
 	border: 1px solid blue;
+	color: white;
+	cursor: pointer;
 }
 
 .register {
-	color: white;
 	background-color: #28a745;
 	border: 1px solid #28a745;
+	color: white;
+	cursor: pointer;
 }
 
 .register:hover {
-	color: white;
 	background-color: #1d7c34;
 	border: 1px solid #1d7c34;
+	color: white;
+	cursor: pointer;
 }
+
+.signup {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+
+.signup:hover {
+	background: #fff;
+	border: 1px solid #878787;
+	color: #000;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+
+.partner {
+	border: 1px solid gray;
+	color: #fff;
+}
+
+.partner:hover {
+	background-color: #fff;
+	border: 1px solid gray;
+	color: #000;
+}
+
 
 .feature-wrapper {
 	background-size: cover;
@@ -108,8 +154,8 @@ li {
 }
 
 .heading p {
-	margin: 0 auto 1.5em auto;
 	font-size: 1.25em;
+	margin: 0 auto 1.5em auto;
 }
 
 .team h3 {
@@ -118,8 +164,8 @@ li {
 }
 
 .security-wrapper {
-	padding: 5em 2em;
 	border-bottom:1px solid gray;
+	padding: 5em 2em;
 }
 
 .hosting {
@@ -131,16 +177,16 @@ li {
 }
 
 .integration-wrapper {
-	padding-bottom: 3em;
 	border-bottom:1px solid gray;
+	padding-bottom: 3em;
 }
 
 .integration-image img {
-	width: 60px;
+	border: 1px solid gray;
+	border-radius: 50%;
 	height: 60px;
 	padding: 20px;
-	border-radius: 50%;
-	border: 1px solid gray;
+	width: 60px;
 }
 
 .footing a {
@@ -156,8 +202,8 @@ li {
 }
 
 .community-link a {
-	text-decoration: none;
 	color: #fff;
+	text-decoration: none;
 }
 
 .community-link h3 {
@@ -172,45 +218,45 @@ li {
 }
 
 .link-orange {
-	display: inline-block;
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
 	background-color: orange;
+	border-radius: 50%;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
 }
 
 .link-blue {
-	display: inline-block;
-	width: 175px;
-	height: 175px;
 	border-radius: 50%;
 	background-color: blue;
+	display: inline-block;
+	height: 175px;
+	width: 175px;
 }
 
 .link-purple {
-	display: inline-block;
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
 	background-color: purple;
+	border-radius: 50%;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
 }
 
 .trial-wrapper {
-	color: #fff;
 	background-color: #000;
+	color: #fff;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 .trial-wrapper {
-	margin-top: 0;
 	font: bold;
+	margin-top: 0;
 }
 
 
 footer .container {
-	color: #000
 	background-color: #fff;
+	color: #000;
 }
 
 .footer-left {
@@ -244,9 +290,99 @@ footer .container {
 }
 
 .hoverMenu-wrapper a {
-	float: left;
 	color: #000;
-	width: 14%;
+	float: left;
 	height: 50px;
 	padding: auto 1em;
+	width: 14%;
+}
+
+.form-wrapper {
+	background-color: #000;
+	color: #fff;
+}
+
+.form-wrapper .container {
+	width: 75%;
+}
+
+.form-check {
+	margin-bottom: 2em;
+	text-align: left;
+	width: 75%;
+}
+
+.form-check p {
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;	
+}
+
+.form-check label {
+	font-size: 0.75em;
+	font-weight: bold;
+	opacity: .75;
+	padding-right: 2em;
+}
+
+.form-input {
+	margin-bottom: 2em;
+	width: 75%;
+}
+
+.form-input p {
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;
+}
+
+.form-input input {
+	text-align: left;
+	width: 100%;
+}
+
+.form-input textarea {
+	text-align: left;
+	width: 100%;
+}
+
+
+.form-select {
+	margin-bottom: 2em;
+	text-align: left;
+	width: 75%;
+}
+
+
+.form-select p {
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;	
+}
+
+.form-select select {
+	width: 100%;
+}
+
+.form-radio {
+	margin-bottom: 2em;
+	text-align: left;
+	width: 75%;
+}
+
+.form-radio p {
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;	
+}
+
+.form-radio label {
+	padding-right: 2em;
+}
+
+.contact-wrapper h2 {
+	font-weight: normal;
+	margin: 1em auto;
+	text-align: left;
+	width: 75%;
 }

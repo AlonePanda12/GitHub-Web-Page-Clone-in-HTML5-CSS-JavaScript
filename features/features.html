@@ -4,12 +4,11 @@
 	<meta charaset="UTF-8">
 	<title>GitHub Clone Page Features</title>
 	<meta name="descritption" content="">
-	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" href="./img/favicon.ico">
 	<link rel="stylesheet" href="../css/stylesheet.css">
 	<link rel="stylesheet" href="../css/stylesheet_responsive.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<scipt src="../js/script.js"></script>
 </head>
 <body>
 	<header>
@@ -17,14 +16,17 @@
 			<div class="header-left">
 				<h1><a href="../index.html">GitHub</a></h1>
 			</div>
-			<a class="menu-bar" href="#" onclick="./js/menuOpen();return false"><i class="fas fa-bars"></i></a>
 			<div class="header-right">
-				<ul>
-					<li><a class="menu" href="../about/about.html">ABOUT</a></li>
-					<li><a class="menu" href="../features/features.html">FEATURES</a></li>
-					<li><a class="menu" href="../partners/partners.html">PARTNERS</a></li>
-					<li><a class="menu" href="../contact/contact.html">CONTACT</a></li>
-				</ul>
+	  				<label class="menu-bar" for="nav-input"><i class="fas fa-bars"></i></label>
+			     	<input id="nav-input" type="checkbox" class="nav-unshown">
+  				<div class="nav-content">
+					<ul>
+						<li><a class="menu" href="../about/about.html">ABOUT</a></li>
+						<li><a class="menu" href="#">FEATURES</a></li>
+						<li><a class="menu" href="../partners/partners.html">PARTNERS</a></li>
+						<li><a class="menu" href="../contact/contact.html">CONTACT</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -51,39 +53,69 @@
 		<div class="codeReview-wrapper" id="codeReview-wrapper-id">
 			<div class="container">
 				<div class="heading">
-					<h6></h6>
-					<h1></h1>
-					<p></p>
+					<h6>コードレビュー</h6>
+					<h1>シームレスなコードレビュー</h1>
+					<p>コードレビューはソースコードを改善するための最も確実な方法であり、GitHubの基盤となる要素です。組み込みのレビューツールにより、コードレビューを必須プロセスとすることができます。</p>
 				</div>
-				<div></div>
 			</div>
 		</div>
 		<div class="project-wrapper" id="project-wrapper-id">
-			
+			<div class="container">
+				<div class="heading">
+					<h6>プロジェクト管理</h6>
+					<h1>アイデアを管理</h1>
+					<p>GitHubのプロジェクト管理ツールを使用することで、チームの連携を促し、整合性の維持、生産性の向上を実現できます。</p>
+				</div>
+			</div>
 		</div>
 		<div class="integration-wrapper" id="integration-wrapper-id">
-			
+			<div class="container">
+				<div class="heading">
+					<h6>インテグレーション</h6>
+					<h1>最適なツール</h1>
+					<p>GitHubアカウントを使用して、GitHub Marketplaceでアプリケーションを探して購入することができます。好みのツールを見つけたり、新しくお気に入りのツールを発見したりしたら、すぐに使い始めることが可能です。</p>
+				</div>
+			</div>
 		</div>
 		<div class="teamManagement-wrapper" id="teamManagement-wrapper-id">
-			
+			<div class="container">
+				<div class="heading">
+					<h6>チーム管理</h6>
+					<h1>ソフトウェア開発の人的側面</h1>
+					<p>ソースコードの開発だけでなく、チームやコミュニティの管理も、ソフトウェア開発の大事な側面です。GitHubでは、チームのメンバーが2人であろうと2,000人であろうと、チームが必要とするサポートを提供します。</p>
+				</div>
+			</div>
 		</div>
 		<div class="sosialCoding-wrapper" id="sosialCoding-wrapper-id">
-			
+			<div class="container">
+				<div class="heading">
+					<h6>ソーシャルコーディング</h6>
+					<h1>つながりを活用しよう</h1>
+					<p>GitHubには2,700万人もの開発者のコミュニティがあります。同じ考えを持った開発者とつながったり、彼らが立ち上げたプロジェクトと連携してみましょう。</p>
+				</div>
+			</div>
 		</div>
 		<div class="document-wrapper" id="source-wrapper-id">
-			
+			<div class="container">
+				<div class="heading">
+					<h6>ドキュメント</h6>
+					<h1>コード作成と同時にドキュメントを作成</h1>
+					<p>ドキュメント</p>
+				</div>
+			</div>
 		</div>
+	</main>
 	<footer>
 		<div class="container">
 			<div class="footer-left">
-				<h1><a href="../index.html">GitHub</a></h1>
+				<h1><a href="./index.html">GitHub</a></h1>
 			</div>
 			<div class="footer-right">
 				<ul>
-					<li><a href="../about/about.html">ABOUT</a></li>
-					<li><a href="../features/features.html">FEATURES</a></li>
-					<li><a href="../partners/partners.html">PARTNERS</a></li>
-					<li><a href="../contact/contact.html">CONTACT</a></li>
+					<li><a href="./about/about.html">ABOUT</a></li>
+					<li>FEATURES</li>
+					<li><a href="./partners/partners.html">PARTNERS</a></li>
+					<li><a href="./contact/contact.html">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>

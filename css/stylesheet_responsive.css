@@ -18,25 +18,11 @@
 		padding-top: 2em;
 	}
 
-	.header-right a:hover {
-		color: #878787;
-	}
-
-	/*
-	.menu-bar {
-		display: none;
-	}
-	*/
-
 	#nav-input {
 		display: none;
 	}
-
-	#nav-open {
-		display: none;
-	}
-
-	.nav-unshow {
+	
+	.menu-bar {
 		display: none;
 	}
 
@@ -102,40 +88,28 @@
 		padding-top: 2em;
 	}
 
-/*
 	.menu-bar {
-		display: inline-block;
-		float: right;
-		margin-left: 2em;
-		margin-right: 2em;
-		padding-top: 2em;
-		color: #fff;
+		margin-right: 4em;
 	}
-*/	
-/*
+	
+
 	.nav-unshown {
 		display: none;
 	}
-*/
+
 	.nav-content {
 		display: none;
-		float: none;
 	}
 
 	#nav-input:checked ~ .nav-content {
 		display: block;
-		opacity: .5;
 		width: 100%;
 	}
-	
 
-
-/*	
 	.header-right li {
-		float: none;
 		margin: 0;
+		padding-top: 2em;
 	}
-*/	
 	
 	.btn {
 		width: 170px;
@@ -208,11 +182,20 @@
 		width: 100%;
 	}
 
-	.team {
+	.team-wrapper {
 		width: 80%;	
 	}
 
-	.security {
+	.security-wrapper {
 		width: 80%;
 	}
+	
+	.integration-wrapper {
+		width: 80%;
+	}
+	
+	.trial-wrapper .button-wrapper {
+		width: 80%;
+	}
+
 }

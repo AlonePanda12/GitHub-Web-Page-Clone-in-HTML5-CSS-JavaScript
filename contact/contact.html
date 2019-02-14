@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charaset="UTF-8">
-	<title>GitHub Clone Page About</title>
+	<title>GitHub Clone Page Contact</title>
 	<meta name="descritption" content="">
 	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="icon" href="./img/favicon.ico">
@@ -21,9 +21,9 @@
 			     	<input id="nav-input" type="checkbox" class="nav-unshown">
   				<div class="nav-content">
 					<ul>
-						<li><a class="menu" href="#">ABOUT</a></li>
+						<li><a class="menu" href="../about/about.html">ABOUT</a></li>
 						<li><a class="menu" href="../features/features.html">FEATURES</a></li>
-						<li><a class="menu" href="../partners/partners.html">PARTNERS</a></li>
+						<li><a class="menu" href="#">PARTNERS</a></li>
 						<li><a class="menu" href="../contact/contact.html">CONTACT</a></li>
 					</ul>
 				</div>
@@ -32,23 +32,50 @@
 		<div class="clear"></div>
 	</header>
 	<main>
-		<div class="top-wrapper">
+		<div class="contact-wrapper">
 			<div class="container">
-				<h1>効率的な開発ワークフロー</h1>
-				<p>軽量なツールや機能で開発者のワークフローをサポートします。自分に合ったやり方で開発を進めてください。GitHubがお手伝いします。</p>
+				<div class="heading">
+					<h2>お問合わせ</h2>
+				</div>
+				<form action="#" method="post" name="form1">
+					<div class="form-input">
+						<p>氏名</p>
+						<input type="text" name="name">
+					</div>
+					<div class="form-input">
+						<p>会社名</p>
+						<input type="text" name="company">
+					</div>
+					<div class="form-input">
+						<p>メール 会社のEメールアドレスをご記入ください</p>
+						<input type="text" name="email">
+					</div>
+					<div class="form-input">
+						<p>電話番号</p>
+						<input type="text" name="tel">
+					</div>
+					<div class="form-input">
+						<p>お問い合わせ内容 (日本語可)</p>
+						<textarea rows="6"></textarea>
+					</div>
+					<div class="button-wrapper">
+						<button type="submit" class="btn register">リクエストを送信</button>
+					</div>
+				</form>
 			</div>
 		</div>
+	</main>
 	<footer>
 		<div class="container">
 			<div class="footer-left">
-				<h1><a href="../index.html">GitHub</a></h1>
+				<h1><a href="./index.html">GitHub</a></h1>
 			</div>
 			<div class="footer-right">
 				<ul>
 					<li><a href="../about/about.html">ABOUT</a></li>
 					<li><a href="../features/features.html">FEATURES</a></li>
 					<li><a href="../partners/partners.html">PARTNERS</a></li>
-					<li><a href="../contact/contact.html">CONTACT</a></li>
+					<li>CONTACT</li>
 				</ul>
 			</div>
 		</div>
